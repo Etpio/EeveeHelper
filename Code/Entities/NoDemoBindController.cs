@@ -28,7 +28,7 @@ public sealed class NoDemoBindController : Entity
 	{
 		if (Engine.Scene is not Level level)
 		{
-			Triggered = false;
+			// Triggered = false;
 			return;
 		}
 
